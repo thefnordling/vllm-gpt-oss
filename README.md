@@ -19,7 +19,13 @@ pip3 install --pre torch torchvision torchaudio --index-url https://download.pyt
 python use_existing_torch.py
 python -m pip install -r requirements/build.txt
 python -m pip install -r requirements/common.txt
-install cuda toolkit: https://developer.nvidia.com/cuda-toolkit-archive
+```
+
+## follow the instructions for installing the [cuda toolkit](https://developer.nvidia.com/cuda-toolkit-archive)
+
+## compile and install vllm
+
+```
 export MAX_JOBS=64
 python -m pip install --no-build-isolation -v .
 ```
