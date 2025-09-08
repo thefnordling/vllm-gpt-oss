@@ -13,7 +13,7 @@ export GPTOSS=$(pwd)
 ## Clone the vllm repo, compile and install it
 
 ```
-git clone https://github.com/thefnordling/vllm-gpt-oss.git
+git clone https://github.com/vllm-project/vllm.git
 cd vllm
 pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129
 python use_existing_torch.py
